@@ -24,7 +24,7 @@ function createVideoCard(id, card_image, card_title) {
     cardDiv.classList.add('card');
     //create thumbnail for the card
     var cardHyperLink = document.createElement("a");
-    cardHyperLink.href = "./watch-page.html?source=" + id;
+    cardHyperLink.href = "watch-page.html?source=" + id;
     var thumbnail = document.createElement('img');
     thumbnail.src = card_image;
     thumbnail.classList.add('thumbnail');
